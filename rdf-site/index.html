@@ -1,0 +1,68 @@
+<!-- include: /_includes/head.html with variables -->
+<!-- TITLE: Rockland Design Factory — Design, Kitchen & Bath Remodeling -->
+<!-- DESCRIPTION: Rockland Design Factory delivers high-end kitchen & bath remodels, interior design, and CAD/3D/AR visualization across Rockland NY, Bergen NJ, and the Hudson Valley. -->
+<!-- CANONICAL: https://www.rocklanddesignfactory.com/ -->
+<!-- OG_IMAGE: https://www.rocklanddesignfactory.com/og.jpg -->
+<!-- STRUCTURED_DATA: -->
+<?include "_includes/head.html"?>
+
+<?include "_includes/breadcrumbs.html"?>
+
+<section class="hero">
+  <h1>Design-first kitchens & baths for discerning homeowners</h1>
+  <p>From concept to reveal: layouts, materials, permits, and project management—delivered with CAD/3D/AR previews.</p>
+  <div class="stack-sm">
+    <a class="btn" href="/contact/">Book a consultation</a>
+    <a class="btn secondary" href="/portfolio/">View recent projects</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Core services</h2>
+  <div class="grid cols-3">
+    <article class="card">
+      <h3><a href="/services/design/">Interior Design</a></h3>
+      <p>Concept, layout, finishes, and procurement with a proven design process.</p>
+    </article>
+    <article class="card">
+      <h3><a href="/services/kitchen-bath/">Kitchen & Bath Remodeling</a></h3>
+      <p>End-to-end remodels with clear timelines, costs, and permit guidance.</p>
+    </article>
+    <article class="card">
+      <h3><a href="/services/cad-3d-ar/">CAD, 3D & AR</a></h3>
+      <p>Visualize before building: detailed plans, renders, and augmented reality previews.</p>
+    </article>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Service Areas</h2>
+  <div class="grid cols-3">
+    <div class="card"><h3><a href="/service-areas/rockland-ny/">Rockland County, NY</a></h3></div>
+    <div class="card"><h3><a href="/service-areas/bergen-nj/">Bergen County, NJ</a></h3></div>
+    <div class="card"><h3><a href="/service-areas/hudson-valley/">Hudson Valley</a></h3></div>
+  </div>
+</section>
+
+<script type="application/ld+json" id="schema-service-home">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Kitchen and Bathroom Remodeling",
+  "provider": {"@type":"LocalBusiness","name":"Rockland Design Factory"},
+  "areaServed": ["Rockland County NY","Bergen County NJ","Hudson Valley"],
+  "serviceType": ["Interior Design","Kitchen Remodeling","Bathroom Remodeling","3D Rendering","Augmented Reality"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Design & Remodel Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Interior Design"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Kitchen Remodeling"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Bathroom Remodeling"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"CAD/3D/AR Visualization"}}
+    ]
+  }
+}
+</script>
+
+<?include "_includes/footer.html"?>

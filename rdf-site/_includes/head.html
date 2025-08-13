@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+  <meta name="robots" content="index,follow"/>
+  <meta name="theme-color" content="#0ea5e9"/>
+
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}"/>
+  <link rel="canonical" href="{{CANONICAL}}"/>
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+  <link rel="alternate icon" href="/favicon.ico"/>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+
+  <link rel="preload" href="/assets/styles.css" as="style"/>
+  <link rel="stylesheet" href="/assets/styles.css"/>
+  <link rel="preload" href="/assets/main.js" as="script"/>
+
+  <link rel="manifest" href="/site.webmanifest"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Rockland Design Factory"/>
+  <meta property="og:title" content="{{TITLE}}"/>
+  <meta property="og:description" content="{{DESCRIPTION}}"/>
+  <meta property="og:url" content="{{CANONICAL}}"/>
+  <meta property="og:image" content="{{OG_IMAGE}}"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+
+  <script type="application/ld+json" id="schema-website">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Rockland Design Factory",
+    "alternateName": "RDF",
+    "url": "https://www.rocklanddesignfactory.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.rocklanddesignfactory.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json" id="schema-organization">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rockland Design Factory",
+    "url": "https://www.rocklanddesignfactory.com/",
+    "logo": "https://www.rocklanddesignfactory.com/logo.svg",
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://www.facebook.com/",
+      "https://www.houzz.com/"
+    ]
+  }
+  </script>
+
+  {{STRUCTURED_DATA}}
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="/"><img src="/logo.svg" alt="RDF Logo"/> <span>Rockland Design Factory</span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about/">About</a>
+      <a href="/services/">Services</a>
+      <a href="/portfolio/">Portfolio</a>
+      <a href="/reviews/">Reviews</a>
+      <a href="/blog/">Blog</a>
+      <a href="/contact/">Contact</a>
+      <a href="/service-areas/">Service Areas</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="container">
